@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Rajdip Shah</title>
+</head>
+<body >
+    <div class="day-night">
+    
+    <button class="toggle" id = "day-night-btn" onclick = "allPageChange()">
+        <div>
+            <svg class="sun" viewBox="0 0 24 24">
+                <g class="lines">
+                    <line x1="1" y1="12" x2="2" y2="12"></line>
+                    <line x1="4.2" y1="4.2" x2="4.9" y2="4.9"></line>
+                    <line x1="12" y1="1" x2="12" y2="2"></line>
+                    <line x1="19.8" y1="4.2" x2="19.1" y2="4.9"></line>
+                    <line x1="23" y1="12" x2="22" y2="12"></line>
+                    <line x1="19.8" y1="19.8" x2="19.1" y2="19.1"></line>
+                    <line x1="12" y1="23" x2="12" y2="22"></line>
+                    <line x1="4.2" y1="19.8" x2="4.9" y2="19.1"></line>
+                </g>
+                <circle cx="12" cy="12" r="6"></circle>
+            </svg>
+            <svg class="moon" viewBox="0 0 24 24">
+                <path d="M18,16C12.5,16,8,11.5,8,6 c0-0.9,0.1-1.8,0.4-2.6C4.1,4.5,1,8.4,1,13c0,5.5,4.5,10,10,10c4.6,0,8.5-3.1,9.6-7.4C19.8,15.9,18.9,16,18,16z"></path>
+                <g class="star-1">
+                    <line x1="15" y1="1" x2="15" y2="5"></line>
+                    <line x1="13" y1="3" x2="17" y2="3"></line>
+                </g>
+                <g class="star-2">
+                    <line x1="21" y1="7" x2="21" y2="11"></line>
+                    <line x1="19" y1="9" x2="23" y2="9"></line>
+                </g>
+            </svg>
+        </div>
+        <svg class="line" viewBox="0 0 52 36"><path d="M 4,18 C 8.235,18 17.53,18 26,18 C 34.47,18 43.765,18 48,18"></path></svg>
+    </button>
+
+    <header>
+            <nav class = "sideBarNav">
+                <ul>
+                    <li class = "nav-link"><a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#work">Work</a></li>
+                    <li class = "nav-link"><a href="C:\Users\User\Desktop\My portfolio Website\about.html">About</a></li>
+                    <li class = "nav-link"><a href="#contact">Contact</a> </li>
+                </ul>
+            </nav>
+
+            <div class="burger" id="toggle" >
+                <div class="toggle-btn" id = "toggle-btn" onclick="menuToggle()">
+                        <div class="toggle-btn__burger"></div>
+                </div>
+            </div>
+            <div class="toggleNav" id="toggleNav">
+                <div class="navContent">
+                    <div class="navContent">
+                        <div class="mainNavToggled" id="mainNavToggled">
+                            <a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#work">
+                                <p>Work</p>
+                            </a>
+                            <a href="C:\Users\User\Desktop\My portfolio Website\about.html">
+                                <p>About</p>
+                            </a>
+                            <a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#contact">
+                                <p>Contact</p>
+                            </a>
+                        </div>
+                    <a href="C:\Users\User\Desktop\My portfolio Website\howWebsite.html">
+                        <p>How a website works</p>
+                    </a>
+                    <a href="C:\Users\User\Desktop\My portfolio Website\buildingProcess.html">
+                        <p>The process of building your website</p>
+                    </a>
+                    <a href="C:\Users\User\Desktop\My portfolio Website\HowHelp.html">
+                        <p>What I can help you with</p>
+                    </a>
+                    <a href="C:\Users\User\Desktop\My portfolio Website\faq.html">
+                        <p>FAQ</p>
+                    </a>
+                </div>
+            </div>
+
+    </header> 
+
+
+    <div class = "overlayFixed"></div>
+
+
+
+
+        <section class="landingPage" id="landingPage">
+            <div class="extraSection">
+                <div class="content" id="content">
+                    <p class="landingHeading" id = "myName"><span>R</span>ajdip <span>S</span>hah</p>
+                    <p class="landingHeading">UI <span>&</span> UX web developer</p>
+                    <p class="subheading"><span>Solving your big business problems with comprehensive design</span></p>
+                </div>
+                <div class="socials" id="socials">
+                    <a href="https://www.instagram.com/_rajdipshah_/"target = "_blank" ><img src="images\instagram-min.png" alt="fb" ></a>
+                    <a href="https://www.facebook.com/rajdip.shah.2"target = "_blank" ><img src="images\facebook-min.png" alt="ins" ></a>
+                    <a target = "_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZBcbTpSLBCwDjpzZrTLcwCnFdsVmSqMRNJWDMmNNPVJrhvcgsHbgfHHGlFvthhtnVgpMW"><img src="images\google.png" alt="mail" ></a>
+                    <a href="https://www.linkedin.com/in/rajdip-shah-8670721a7/"target = "_blank" ><img src="images\LinkedIn-min.png" alt="linkedIn" ></a>
+                </div>
+            </div>
+        </section>
+        
+
+
+
+        <section class="work" id="work">
+            <div class="content">
+                <div class="title">
+                    <p class="heading"><span>W</span>orks</p>
+                    <p class="subheading"><span>Having a good website is like having a top performing sales rep working 24/7</span></p>
+                </div>
+                <div class="mainContent">
+                    <div class="workBox" id="myPorfolio">
+                            <div class="img">
+                                 <img src="images\Screenshot (652) 1-min.png" class = "darkImg" alt="website thumbnail">
+                                 <img src="images\Screenshot (211).png" class = "lightImg" alt="website thumbnail">
+                                 <div class="overShadow">You are in the website</br>🙃</div>
+                            </div>
+                            <div class="text">
+                                <p class="heading">My portfolio website</p>
+                                <p class="paragraph">
+                                    Because I am comparatively young and don't have extensive experience, it’s natural that people take me lightly. Therefore, the objective of this website is to build trust between you and me by letting you know that I am capable of your project.
+                                </p>
+                                <a href="C:\Users\User\Desktop\My portfolio Website\thoughtProcess.html"><button>Know More</button></a>
+                            </div>
+                    </div>
+
+                    <div class="workBox" id="surendraShah">
+                        <div class="img">
+                            <a href="file:///C:/Users/User/Desktop/Surendra%20Shah/index.html" target="_blank">
+                                <img src="images\Screenshot (664) 1-min.png" alt="Website Thumbnaail">
+                                <div class="overShadow"> Visit Website </div>
+                            </a>
+                       </div>
+                       <div class="text">
+                           <p class="heading">Personal website for Dr.Surendra Shah</p>
+                           <p class="paragraph">Dr. Surendra Shah is a GI and HBI sergeon and also my father. He needed a professional personal website so his patients could find and communicate with him better and with ease. He also wanted a place where he could put his work on the field for other professionals to reference. </p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <section class="about" id="about">
+        <div class="content" id="aboutContent">
+            <div class="img" id="aboutImg">
+                <img src="images\stare-min.png" alt="MY FACE">
+            </div>
+            <div class="textContent">
+                <p class="heading"><span>A</span>bout</p>
+                <p class="paragraph">
+                    I am a self-taught UI & UX designer from Nepal. I am 16 and currently 
+                    completing my A levels at GEMS GIHE. I love learning new things and coding 
+                    joined the list when i was 13 with Python. I love the process of 
+                    breaking a big task to it’s fundamental pieces and then building 
+                    and joining them together. Business and sales made to 
+                    the list following coding. Disecting different businesses and seeing 
+                    how each part works together to form a system, understanding why 
+                    some strategies work and some don’t and learning more about selling 
+                    value to a mass have been a hobbie. Beside being wired to a screen, 
+                    I play a lot of soccer and recently guitar.</p>
+                <a href="C:\Users\User\Desktop\My portfolio Website\about.html"> <button>More?</button> </a>
+            </div>
+        </div>
+        </section>
+
+
+
+
+
+
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="title">
+                    <p class="heading"><span>C</span>ontact</p>
+                    <p class="subheading"><span>Let's level up your business</span></p>
+                </div>
+                <div class="contactBubbles">
+                    <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZBcbTpSLBCwDjpzZrTLcwCnFdsVmSqMRNJWDMmNNPVJrhvcgsHbgfHHGlFvthhtnVgpMW">
+                        <div class="bubble">
+                            <p>Send a <br>mail</p>
+                            <div class="overlay">rajdipshah01@gmail.com</div>
+                        </div>
+                    </a>
+
+                    <a target="_blank" href="">
+                        <div class="bubble">
+                            <p>DM me <br>on insta</p>
+                        <div class="overlay">@_rajdipshah_</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="feedback">
+                    <div>
+                        <p>I would love to hear any feedback you may have for this website</p>
+                        <a href=""><button>Send</button></a>
+                    </div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder = "anything more you would like to see" ></textarea>
+                </div>
+                <div class="copyright">
+                    <p>Copyright © 2021 | Rajdip Shah | </p>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

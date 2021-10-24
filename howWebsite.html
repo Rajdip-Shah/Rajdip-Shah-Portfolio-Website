@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="howWebsite.css">
+    <title>Rajdip Shah</title>
+</head>
+<body>
+    <div class="day-night">
+    
+        <button class="toggle" id = "day-night-btn">
+            <div>
+                <svg class="sun" viewBox="0 0 24 24">
+                    <g class="lines">
+                        <line x1="1" y1="12" x2="2" y2="12"></line>
+                        <line x1="4.2" y1="4.2" x2="4.9" y2="4.9"></line>
+                        <line x1="12" y1="1" x2="12" y2="2"></line>
+                        <line x1="19.8" y1="4.2" x2="19.1" y2="4.9"></line>
+                        <line x1="23" y1="12" x2="22" y2="12"></line>
+                        <line x1="19.8" y1="19.8" x2="19.1" y2="19.1"></line>
+                        <line x1="12" y1="23" x2="12" y2="22"></line>
+                        <line x1="4.2" y1="19.8" x2="4.9" y2="19.1"></line>
+                    </g>
+                    <circle cx="12" cy="12" r="6"></circle>
+                </svg>
+                <svg class="moon" viewBox="0 0 24 24">
+                    <path d="M18,16C12.5,16,8,11.5,8,6 c0-0.9,0.1-1.8,0.4-2.6C4.1,4.5,1,8.4,1,13c0,5.5,4.5,10,10,10c4.6,0,8.5-3.1,9.6-7.4C19.8,15.9,18.9,16,18,16z"></path>
+                    <g class="star-1">
+                        <line x1="15" y1="1" x2="15" y2="5"></line>
+                        <line x1="13" y1="3" x2="17" y2="3"></line>
+                    </g>
+                    <g class="star-2">
+                        <line x1="21" y1="7" x2="21" y2="11"></line>
+                        <line x1="19" y1="9" x2="23" y2="9"></line>
+                    </g>
+                </svg>
+            </div>
+            <svg class="line" viewBox="0 0 52 36"><path d="M 4,18 C 8.235,18 17.53,18 26,18 C 34.47,18 43.765,18 48,18"></path></svg>
+        </button>
+
+
+        
+
+        <a href="C:\Users\User\Desktop\My portfolio Website\index.html" class="backToHome" id="backToHome">
+            <img src="images\home_fill.png" alt="Back">
+        </a>
+
+
+
+
+        <header>
+                <nav class = "sideBarNav">
+                    <ul>
+                        <li class = "nav-link" id = "work"><a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#work">Work</a></li>
+                        <li class = "nav-link" id = "MENU"><a href="C:\Users\User\Desktop\My portfolio Website\about.html">About</a></li>
+                        <li class = "nav-link" id = "REVIEW"><a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#contact">Contact</a> </li>
+                    </ul>
+                </nav>
+    
+                <div class="burger" id="toggle" >
+                    <div class="toggle-btn" id = "toggle-btn" onclick="menuToggle()">
+                            <div class="toggle-btn__burger"></div>
+                    </div>
+                </div>
+                <div class="toggleNav" id="toggleNav">
+                    <div class="navContent">
+                        <div class="mainNavToggled" id="mainNavToggled">
+                            <a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#work">
+                                <p>Work</p>
+                            </a>
+                            <a href="C:\Users\User\Desktop\My portfolio Website\about.html">
+                                <p>About</p>
+                            </a>
+                            <a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#contact">
+                                <p>Contact</p>
+                            </a>
+                        </div>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\howWebsite.html">
+                            <p style="color: var(--accent-color); font-weight:500;" >The working of a website</p>
+                        </a>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\buildingProcess.html" >
+                            <p>What process you can expect</p>
+                        </a>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\HowHelp.html">
+                            <p>What I can help you with</p>
+                        </a>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\faq.html">
+                            <p>FAQ</p>
+                        </a>
+                    </div>
+                </div>
+    
+        </header> 
+
+        <div class = "overlay"></div>
+
+
+        <section class="howWebsite" id="howWebsite">
+            <div class="content" id="content">
+                <p class="heading"><span>H</span>ow a website works</p>
+                <div class="diagram" id="diagram">
+                    <img src="images\Diagram-min.png" alt="" class="dark" id="Max">
+                    <img src="images\Diagram-min (1).png" alt="" class="dark" id="Mid">
+                    <img src="images\Diagram (1)-min.png" alt="" class="dark" id="Min">
+                    <img src="images\Diagram-1-min.png" alt="" class="light" id="Max">
+                    <img src="images\Diagram (1)-min (1).png" alt="" class="light" id="Mid">
+                    <img src="images\Diagram-min-min.png" alt="" class="light" id="Min">
+                </div>
+                <div class="textContent" id="textContent">
+                    <div class="dns" id="dns">
+                        <p class="paragraph">
+                            A <span>DNS Server</span> is like a phonebook with all the domains 
+                            in the world and the IP addresses of the servers that holds the 
+                            required information of that domain. A browser uses the IP address 
+                            to find the server holding the required files(html, css, javascript) 
+                            to display the website on the user’s window. 
+                        </p>
+                        <img src="images\Screenshot (655) 1-min.png" alt="" class="dark" id="dnsImgDark">
+                        <img src="images\Screenshot (673) 1-min.png" alt="" class="light" id="dnsImgLight">
+                    </div>
+                    <div class="ip" id="ip">
+                        <p class="paragraph">
+                            <span>IP address</span> IP address is basically a unique individual name 
+                            assigned to every server computer when it is added to the Internet/ cloud. 
+                            Just like every single house has a specific residence address and if you want 
+                            to send a letter, you mention the residential address in your letter and 
+                            the mail man will know where to deliver that mail to. In a prallel way, 
+                            the browser can find the website’s server from the internet/ cloud by 
+                            scanning for the website’s IP address.
+                        </p>
+                    </div>
+                    <div class="internet" id="internet">
+                            <p class="paragraph">
+                                <span>Internet/ Cloud</span> is a bunch of computers connected together 
+                                and each computer has a unique IP address which holds the required files 
+                                and database for it’s domain. 
+                            </p>
+                        <img src="images\Cloud Network (1).png" alt="" class="dark" id="internetImgDark">
+                        <img src="images\Cloud Network (2).png" alt="" class="light" id="internetImgLight">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+
+
+    <div class="copyright">
+            <p>Copyright © 2021 | Rajdip Shah | </p>
+    </div>
+    
+        </div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+
+
+
+    <script src = "howWebsite.js"></script>
+</body>
+</html>

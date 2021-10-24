@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buildingProcess.css">
+    <title>Rajdip Shah</title>
+</head>
+<body>
+    <div class="day-night">
+    
+        <button class="toggle" id = "day-night-btn">
+            <div>
+                <svg class="sun" viewBox="0 0 24 24">
+                    <g class="lines">
+                        <line x1="1" y1="12" x2="2" y2="12"></line>
+                        <line x1="4.2" y1="4.2" x2="4.9" y2="4.9"></line>
+                        <line x1="12" y1="1" x2="12" y2="2"></line>
+                        <line x1="19.8" y1="4.2" x2="19.1" y2="4.9"></line>
+                        <line x1="23" y1="12" x2="22" y2="12"></line>
+                        <line x1="19.8" y1="19.8" x2="19.1" y2="19.1"></line>
+                        <line x1="12" y1="23" x2="12" y2="22"></line>
+                        <line x1="4.2" y1="19.8" x2="4.9" y2="19.1"></line>
+                    </g>
+                    <circle cx="12" cy="12" r="6"></circle>
+                </svg>
+                <svg class="moon" viewBox="0 0 24 24">
+                    <path d="M18,16C12.5,16,8,11.5,8,6 c0-0.9,0.1-1.8,0.4-2.6C4.1,4.5,1,8.4,1,13c0,5.5,4.5,10,10,10c4.6,0,8.5-3.1,9.6-7.4C19.8,15.9,18.9,16,18,16z"></path>
+                    <g class="star-1">
+                        <line x1="15" y1="1" x2="15" y2="5"></line>
+                        <line x1="13" y1="3" x2="17" y2="3"></line>
+                    </g>
+                    <g class="star-2">
+                        <line x1="21" y1="7" x2="21" y2="11"></line>
+                        <line x1="19" y1="9" x2="23" y2="9"></line>
+                    </g>
+                </svg>
+            </div>
+            <svg class="line" viewBox="0 0 52 36"><path d="M 4,18 C 8.235,18 17.53,18 26,18 C 34.47,18 43.765,18 48,18"></path></svg>
+        </button>
+
+
+        
+
+        <a href="C:\Users\User\Desktop\My portfolio Website\index.html" class="backToHome" id="backToHome">
+            <img src="images\home_fill.png" alt="Back">
+        </a>
+
+
+
+
+        <header>
+                <nav class = "sideBarNav">
+                    <ul>
+                        <li class = "nav-link" id = "work"><a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#work">Work</a></li>
+                        <li class = "nav-link" id = "MENU"><a href="C:\Users\User\Desktop\My portfolio Website\about.html">About</a></li>
+                        <li class = "nav-link" id = "REVIEW"><a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#contact">Contact</a> </li>
+                    </ul>
+                </nav>
+    
+                <div class="burger" id="toggle" >
+                    <div class="toggle-btn" id = "toggle-btn" onclick="menuToggle()">
+                            <div class="toggle-btn__burger"></div>
+                    </div>
+                </div>
+                <div class="toggleNav" id="toggleNav">
+                    <div class="navContent">
+                        <div class="mainNavToggled" id="mainNavToggled">
+                            <a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#work">
+                                <p>Work</p>
+                            </a>
+                            <a href="C:\Users\User\Desktop\My portfolio Website\about.html">
+                                <p>About</p>
+                            </a>
+                            <a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#contact">
+                                <p>Contact</p>
+                            </a>
+                        </div>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\howWebsite.html">
+                            <p>How a website works</p>
+                        </a>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\buildingProcess.html" >
+                            <p style="color: var(--accent-color); font-weight:500;" >Website building procedure</p>
+                        </a>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\HowHelp.html">
+                            <p>What I can help you with</p>
+                        </a>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\faq.html">
+                            <p>FAQ</p>
+                        </a>
+                    </div>
+                </div>
+    
+        </header> 
+    
+        <div class = "overlay"></div>
+    
+
+
+
+<section class="buildingProcess" id="buildingProcess">
+    <div class="content">
+        <p class = "heading" ><span>The process of building your website</span></p>
+        <div class="processContainer" id="process1">
+            <div class="processNum" id="processNum">
+                    <div class="num" id="num">
+                        <p>01</p>
+                    </div>
+            </div>
+            <div class="text" id="text">
+                <p class="subheading">
+                    Understanding the scope of the project 
+                </p>
+                <p class="paragraph">
+                    This is our first call. We talk about what outcome you expect from your website, what is success for you, any challenges you may be having. What you need me for. What do you want your website to have and hence the number of pages and features. Your budget. We know each other better and if we want to work together. Concludingly I present you a price and time according to the scope of your project and the milestones for the project. If we agree to it, we finalize the project and start working on your website.                </p>
+            </div>
+        </div>
+        <div class="processContainer" id="process2">
+            <div class="processNum" id="processNum">
+                <div class="num" id="numLeft">
+                    <p>02</p>
+                </div>
+            </div>
+            <div class="text" id="text">
+                <p class="subheading">
+                    Breaking down your brand
+                </p>
+                <p class="paragraph">
+                    This is our first call after finalizing the project. We dig deeper into your brand, who you are, your story, your value proposition, target audience, what your audience wants from you, what value/message you are giving to your audience. By the end of this call, we have a clear understanding of what the objective of your website’s design is.                </p>
+            </div>
+        </div>
+        <div class="processContainer" id="process3">
+            <div class="processNum" id="processNum">
+                <div class="num" id="num">
+                    <p>03</p>
+                </div>
+            </div>
+            <div class="text" id="text">
+                <p class="subheading">
+                    Content of your website
+                </p>
+                <p class="paragraph">
+                    You give me all the contents for your website. The titles, copywriting, images, links, and any other information. You can also give me any design ideas or references you may have for your website’s design.             </div>
+        </div>
+        <div class="processContainer" id="process4">
+            <div class="processNum" id="processNum">
+                <div class="num" id="numLeft">
+                    <p>04</p>
+                </div>
+            </div>
+            <div id="responsiveImgFlex">
+                <div class="text" id="text">
+                    <p class="subheading">
+                        Wireframing your website
+                    </p>
+                    <p class="paragraph">
+                        I present you with different variations of content layout for your website for both desktop and mobile on Figma. The navigation structure, order, scale, alignment, negative-space, animations of contents in your website, and brief on how the layout works to optimize user experience (UX). Upon your further suggestions, we will have finalized wireframe when you are satisfied with one.             </div>
+                <div class="img">
+                    <img src="C:\Users\User\Downloads\965f91e1549a177acd63b8dced7592fa.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="processContainer" id="process5">
+            <div class="processNum" id="processNum">
+                <div class="num" id="num">
+                    <p>05</p>
+                </div>
+            </div>
+            <div class="text" id="text">
+                <p class="subheading">
+                    Styling Your Website
+                </p>
+                <p class="paragraph">
+                    I will place the texts, imagery, buttons, and other content on their respective layout structure. I will present you with different variations of color combinations( primary color, secondary colors, accent color ) and typography( title, subtitle, paragraph ). Once you are satisfied with the final design of your website for both desktop and mobile which will be on Figma, we have finished the design process and now we have the final design of your website.            </div>
+        </div>
+        <div class="processContainer" id="process6">
+            <div class="processNum" id="processNum">
+                <div class="num" id="numLeft">
+                    <p>06</p>
+                </div>
+            </div>
+            <div class="text" id="text">
+                <p class="subheading">
+                    Coding the website 
+                </p>
+                <p class="paragraph">
+                    Once we have reached a final design, I will start coding your website in HTML, CSS and Javascript. Several debugging sessions will be done to make sure your website is properly functioning, there are no bugs and it is responsive to every device.            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    <div class="copyright">
+            <p>Copyright © 2021 | Rajdip Shah | </p>
+    </div>
+    
+        </div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+
+
+
+    <script src = "buildingProcess.js"></script>
+</body>
+</html>

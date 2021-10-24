@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title>Rajdip Shah | About</title>
+</head>
+<body>
+    <div class="day-night">
+    
+        <button class="toggle" id = "day-night-btn">
+            <div>
+                <svg class="sun" viewBox="0 0 24 24">
+                    <g class="lines">
+                        <line x1="1" y1="12" x2="2" y2="12"></line>
+                        <line x1="4.2" y1="4.2" x2="4.9" y2="4.9"></line>
+                        <line x1="12" y1="1" x2="12" y2="2"></line>
+                        <line x1="19.8" y1="4.2" x2="19.1" y2="4.9"></line>
+                        <line x1="23" y1="12" x2="22" y2="12"></line>
+                        <line x1="19.8" y1="19.8" x2="19.1" y2="19.1"></line>
+                        <line x1="12" y1="23" x2="12" y2="22"></line>
+                        <line x1="4.2" y1="19.8" x2="4.9" y2="19.1"></line>
+                    </g>
+                    <circle cx="12" cy="12" r="6"></circle>
+                </svg>
+                <svg class="moon" viewBox="0 0 24 24">
+                    <path d="M18,16C12.5,16,8,11.5,8,6 c0-0.9,0.1-1.8,0.4-2.6C4.1,4.5,1,8.4,1,13c0,5.5,4.5,10,10,10c4.6,0,8.5-3.1,9.6-7.4C19.8,15.9,18.9,16,18,16z"></path>
+                    <g class="star-1">
+                        <line x1="15" y1="1" x2="15" y2="5"></line>
+                        <line x1="13" y1="3" x2="17" y2="3"></line>
+                    </g>
+                    <g class="star-2">
+                        <line x1="21" y1="7" x2="21" y2="11"></line>
+                        <line x1="19" y1="9" x2="23" y2="9"></line>
+                    </g>
+                </svg>
+            </div>
+            <svg class="line" viewBox="0 0 52 36"><path d="M 4,18 C 8.235,18 17.53,18 26,18 C 34.47,18 43.765,18 48,18"></path></svg>
+        </button>
+
+
+        
+
+        <a href="C:\Users\User\Desktop\My portfolio Website\index.html" class="backToHome" id="backToHome">
+            <img src="images\home_fill.png" alt="Back">
+        </a>
+
+
+
+
+        <header>
+                <nav class = "sideBarNav">
+                    <ul>
+                        <li class = "nav-link" id = "work"><a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#work">Work</a></li>
+                        <li class = "nav-link" id = "MENU"><a href="C:\Users\User\Desktop\My portfolio Website\about.html">About</a></li>
+                        <li class = "nav-link" id = "REVIEW"><a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#contact">Contact</a> </li>
+                    </ul>
+                </nav>
+    
+                <div class="burger" id="toggle" >
+                    <div class="toggle-btn" id = "toggle-btn" onclick="menuToggle()">
+                            <div class="toggle-btn__burger"></div>
+                    </div>
+                </div>
+                <div class="toggleNav" id="toggleNav">
+                    <div class="navContent">
+                        <div class="mainNavToggled" id="mainNavToggled">
+                            <a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#work">
+                                <p>Work</p>
+                            </a>
+                            <a href="C:\Users\User\Desktop\My portfolio Website\about.html">
+                                <p>About</p>
+                            </a>
+                            <a href="file:///C:/Users/User/Desktop/My%20portfolio%20Website/index.html#contact">
+                                <p>Contact</p>
+                            </a>
+                        </div>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\howWebsite.html">
+                            <p>The working of a website</p>
+                        </a>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\buildingProcess.html">
+                            <p>What process you can expect</p>
+                        </a>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\HowHelp.html">
+                            <p>What I can help you with</p>
+                        </a>
+                        <a href="C:\Users\User\Desktop\My portfolio Website\faq.html">
+                            <p>FAQ</p>
+                        </a>
+                    </div>
+                </div>
+    
+        </header> 
+    
+        <div class = "overlay"></div>
+    
+
+        <section class="favShows" id="favShows">
+                <p class="heading"><span>F</span>avorite Shows</p>
+            <div class="content">
+                <div class="shows" id="shows">
+                    <div class="container">
+                        <input type="radio" name="slider" id="item-1" checked="">
+                        <input type="radio" name="slider" id="item-2">
+                        <input type="radio" name="slider" id="item-3">
+                        <input type="radio" name="slider" id="item-4">
+                        <input type="radio" name="slider" id="item-5">
+                      <div class="cards">
+                        <label class="card" for="item-1" id="song-1">
+                          <img src="images\show-1.jpg" alt="song">
+                        </label>
+                        <label class="card" for="item-2" id="song-2">
+                          <img src="images\show-5.jpg" alt="song">
+                        </label>
+                        <label class="card" for="item-3" id="song-3">
+                          <img src="images\show-4.jpg" alt="song">
+                        </label>
+                        <label class="card" for="item-4" id="song-4">
+                          <img src="images\show-2.jpg" alt="song">
+                        </label>
+                        <label class="card" for="item-5" id="song-5">
+                          <img src="images\show-3.jpg" alt="song">
+                        </label>
+                      </div>
+                      <div class="player">
+                        <div class="upper-part">
+                          <div class="info-area" id="test">
+                            <label class="song-info" id="song-info-1">
+                              <div class="title">Lucifer Morningstar</div>
+                            <label class="song-info" id="song-info-2">
+                              <div class="title">Avatar: The last airbender</div>
+                            <label class="song-info" id="song-info-3">
+                              <div class="title">Stranger Things</div>
+                            <label class="song-info" id="song-info-4">
+                              <div class="title">Sex Education</div>
+                            <label class="song-info" id="song-info-5">
+                              <div class="title">Peaky Bliners</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="coolShit" id="coolShit">
+      <p class="heading">Cool Shit I Can Do</p>
+
+            <div class="content" id="content">
+                <div class="VidCards">
+
+    <div class="app">
+
+        <div class="cardList">
+            <button class="cardList__btn btn btn--left" style="opacity: 1; pointer-events: all;">
+                <div class="icon">
+                    <svg>
+                        <use xlink:href="#arrow-left"></use>
+                    </svg>
+                </div>
+            </button>
+    
+            <div class="cards__wrapper">
+                <div class="card previous--card" style="--card-translateY-offset:0%; --current-card-rotation-offset:0; z-index: 50;">
+                    <div class="card__image">
+                        <video class = "video">
+                            <source src="images\Bottle Flip.mp4" type="video/mp4">
+                        </video>
+                        <div class="overlay" onclick="playVideo()">
+                            <img src="images\pause.png" alt="" class="pause">
+                            <img src="images\play.png" alt="" class="play"></div>
+                    </div>
+                </div>
+    
+                <div class="card current--card" style="--card-translateY-offset:0%; z-index: 30; --current-card-rotation-offset:0;">
+                    <div class="card__image">
+                        <video class = "video">
+                            <source src="images\guitar.mp4" type="video/mp4">
+                        </video>
+                        <div class="overlay" onclick="playVideo()">
+                            <img src="images\pause.png" alt="" class="pause">
+                            <img src="images\play.png" alt="" class="play">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="card next--card" style="--card-translateY-offset:0%; z-index: 20;">
+                    <div class="card__image">
+                        <video class = "video">
+                            <source src="images\pushUps.mp4" type="video/mp4">
+                        </video>
+                        <div class="overlay" onclick="playVideo()">
+                            <img src="images\pause.png" alt="" class="pause">
+                            <img src="images\play.png" alt="" class="play">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <button class="cardList__btn btn btn--right" style="opacity: 1; pointer-events: all;">
+                <div class="icon">
+                    <svg>
+                        <use xlink:href="#arrow-right"></use>
+                    </svg>
+                </div>
+            </button>
+        </div>
+    
+        <div class="infoList">
+            <div class="info__wrapper">
+                <div class="info previous--info" style="transform: translate3d(0px, 0px, 32px);">
+                    <h1 class="text name" style="opacity: 0; transform: translate(0px, -120px);">Bottle Flips</h1>
+
+                    <!-- <h4 class="text location" style="opacity: 0; transform: translate(0px, -120px);">Scotland</h4> -->
+                    <!-- <p class="text description" style="opacity: 0; transform: translate(0px, -120px);">The mountains are calling</p> -->
+                </div>
+    
+                <div class="info current--info" style="transform: translate3d(0px, 0px, 32px);">
+                    <h1 class="text name" style="transform: translate(0px, 0px); opacity: 1;">Guitar</h1>
+                    <!-- <h4 class="text location" style="transform: translate(0px, 0px); opacity: 1;">Peru</h4> -->
+                    <p class="text description" style="transform: translate(0px, 0px); opacity: 1;">Senorita - shawn mendes & camila cabello</p>
+                </div>
+    
+                <div class="info next--info">
+                    <h1 class="text name">Push Ups</h1>
+                    <!-- <h4 class="text location">France</h4> -->
+                    <!-- <p class="text description">Let your dreams come true</p> -->
+                </div>
+            </div>
+        </div>
+    
+    
+        <!-- <div class="app__bg">
+            <div class="app__bg__image previous--image" style="z-index: -2;">
+                <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="">
+            </div>
+            <div class="app__bg__image current--image" style="z-index: -1;">
+                <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="">
+            </div>
+            <div class="app__bg__image next--image">
+                <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="">
+            </div>
+        </div> -->
+    </div>
+
+
+
+
+    <svg class="icons" style="display: none;">
+        <symbol id="arrow-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <polyline points="328 112 184 256 328 400" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"></polyline>
+        </symbol>
+        <symbol id="arrow-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <polyline points="184 112 328 256 184 400" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px"></polyline>
+        </symbol>
+    </svg>
+
+
+                </div>
+            </div>
+        </section>
+
+
+                    <div class="copyright">
+                        <p>Copyright © 2021 | Rajdip Shah | </p>
+                    </div>
+    
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>    
+
+<script src = "about.js"></script>
+</body>
+</html>
